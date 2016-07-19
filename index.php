@@ -1,3 +1,3 @@
 <?php
-	ehco phpinfo();
+	echo "test rollback";
 ?>
