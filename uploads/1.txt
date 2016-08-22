@@ -1,0 +1,6 @@
+一：function
+1>:extract  该函数使用数组键名作为变量名，使用数组键值作为变量值
+   eg: $array = array('a'=>'张三','b'=>'李四','c'=>'赵五');
+   	   extract($array);
+   	   Final: $a = '张三'; $b = '李四'; $c = '赵五';
+2>:php_strip_whitespace($file)  返回去掉注释和空格后的php源码

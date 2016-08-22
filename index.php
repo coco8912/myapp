@@ -1,3 +1,3 @@
 <?php
-	echo "test rollback";
+require './System_new/core.php';
 ?>
